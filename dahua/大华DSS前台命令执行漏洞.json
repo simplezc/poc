@@ -11,6 +11,6 @@
       "User-Agent": "Mozilla/5.0 (Linux;"
     },
     "status_code":"200",
-    "pattern": "({\"status\":200})"
+    "pattern": "(\"status\":200)"
   }
 }
