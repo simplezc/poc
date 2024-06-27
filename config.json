@@ -24,7 +24,8 @@
     "huaxia" : "华夏",
     "qianxin" : "奇安信",
     "jindie" : "金蝶",
-    "ruiyou" : "瑞友"
+    "ruiyou" : "瑞友",
+    "qiyuesuo" : "契约锁"
     
     
   },
@@ -35,8 +36,8 @@
   }
 }
 
-//  "dnsapi": {
+//  "ceye": {
 //    "type": "ceye",
-//    "api" : "https://dnslog.org/{{token}}?domain=dnslog.store.",
-//    "token": "y5lz8m6hgha2",
+//    "api" : "http://api.ceye.io/v1/records?token={{token}}&type=dns&filter=",
+//    "token": "xxxxxx",
 //  }
