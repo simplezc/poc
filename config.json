@@ -35,8 +35,8 @@
     "token": "9stohdhhqbsn",
   }
 }
-
-//  "ceye": {
+//其他api接口可以按照模板自定义使用
+//  "dnslog": {
 //    "type": "ceye",
 //    "api" : "http://api.ceye.io/v1/records?token={{token}}&type=dns&filter=",
 //    "token": "xxxxxx",
